@@ -201,20 +201,6 @@ Official skills by VoltAgent for building AI agents with the VoltAgent TypeScrip
 ### Skills by Typefully 
 - **[typefully/typefully](https://officialskills.sh/typefully/skills/typefully)** - Create, schedule, and publish social media content across X, LinkedIn, Threads, Bluesky, and Mastodon
 
-### Skills by Honeydew Team
-Official skills for the Honeydew semantic layer over Snowflake, Databricks, and BigQuery.
-- **[honeydew-ai/model-exploration](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/model-exploration)** - Explore Honeydew semantic model entities, relationships, attributes, metrics
-- **[honeydew-ai/entity-creation](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/entity-creation)** - Create entities in the Honeydew semantic model
-- **[honeydew-ai/relation-creation](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/relation-creation)** - Define relationships between entities in Honeydew
-- **[honeydew-ai/attribute-creation](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/attribute-creation)** - Create attributes on Honeydew semantic entities
-- **[honeydew-ai/metric-creation](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/metric-creation)** - Define governed metrics in the Honeydew semantic layer
-- **[honeydew-ai/context-item-creation](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/context-item-creation)** - Create reusable context items for Honeydew agents
-- **[honeydew-ai/domain-creation](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/domain-creation)** - Define semantic domains in Honeydew workspaces
-- **[honeydew-ai/validation](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/validation)** - Validate Honeydew semantic model changes before deploying
-- **[honeydew-ai/query](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/query)** - Run governed queries against the Honeydew semantic layer
-- **[honeydew-ai/filtering](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/filtering)** - Apply filters to Honeydew queries and metrics
-- **[honeydew-ai/workspace-branch](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins/tree/main/skills/workspace-branch)** - Branch Honeydew workspaces for safe semantic model iteration
-
 <details open>
 <summary><h3 style="display:inline">Skills by Venice.ai</h3></summary>
 
@@ -1415,6 +1401,7 @@ Official MongoDB Agent Skills for agentic workflows — connection management, s
 <summary><h3 style="display:inline">Specialized Domains</h3></summary>
 
 - **[transloadit/skills](https://github.com/transloadit/skills/tree/main/skills)** - Transloadit skill collection (6)
+- **[honeydew-ai/honeydew-ai-coding-agents-plugins](https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins)** - 11 skills for the Honeydew semantic layer over Snowflake, Databricks, and BigQuery: model exploration, entity/relation/attribute/metric/context/domain creation, validation, query, filtering, and workspace branching
 - **[raintree-technology/apple-hig-skills](https://github.com/raintree-technology/apple-hig-skills)** - Apple Human Interface Guidelines as 14 agent skills covering platforms, foundations, components, patterns, inputs, and technologies for iOS, macOS, visionOS, watchOS, and tvOS
 - **[K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** - Scientific research and analysis skills
 - **[NotMyself/claude-win11-speckit-update-skill](https://github.com/NotMyself/claude-win11-speckit-update-skill)** - Windows 11 system management
