@@ -1,0 +1,29 @@
+name: Scheduled Repo Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Запуск каждый день в полночь по UTC
+  workflow_dispatch: # Позволяет запустить синхронизацию вручную кнопкой
+
+jobs:
+  sync_with_upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync upstream changes
+        id: sync
+        uses: aieri/pull-upstream@v1.0.1
+        with:
+          upstream_repo: "https://github.com/VoltAgent/agent-skills.git" # ЗАМЕНИ НА ОРИГИНАЛ
+          upstream_branch: trunk # или main, смотря что в оригинале
+          target_branch: trunk   # твоя ветка
+          force: false # чтобы не затереть свои правки, если они будут
+
+      - name: Check for errors
+        if: failure()
+        run: echo "Sync failed - possible merge conflict"
